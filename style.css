@@ -1,0 +1,444 @@
+
+
+footer{
+	background-color: #f5ede6;
+	padding:10px;
+
+}
+
+#logoimage {
+    	height:80px;
+}
+
+nav {    
+    	position: fixed; 
+    	top: 0;
+    	z-index: 1000;
+    	width: 100%;
+    	display: flex;
+	
+	align-items: center;
+    	background-color: #f5ede6;
+}
+
+.menu {
+    	display: flex;
+   	justify-content: space-between;
+	flex-grow: 1;
+ 
+	margin-left:100px;
+	margin-right:100px;
+}
+
+.menu a {
+    	text-decoration: none;
+
+    	color: purple;
+    	font-weight: bold;
+    	font-size: 20px;
+    	font-family: "Segoe Print";
+}
+
+
+
+
+
+
+
+
+
+.head{
+	text-align: center;
+	
+}
+
+
+.special-text{
+	padding-top: 100px;
+
+    	font-family: "Courier New";
+    	font-size: 36px;    
+	font-weight: bold;
+    	color: purple;
+    	
+
+}
+.title{
+	font-family: "Courier";
+    	font-size: 30px;    
+	font-weight: bold;
+	color: #A155B9;
+    	
+}
+.text{
+	font-family: "Segoe Print";
+	font-weight: bold;
+	font-size: 20px;	
+	
+}
+
+
+
+
+
+.video-container {
+	 margin-bottom: 20px;
+	display: flex;
+    	flex-direction: column;
+    	align-items: center;
+    	justify-content: center;
+    	width:100%;
+   	margin-top: 40px;
+}
+
+.video-container h2 {
+	color:purple;
+	font-family:"Segoe Print"; 
+    	font-size: 30px;
+}
+
+
+#video{
+        width: 60%;
+
+    
+}
+
+
+
+.text1 a{
+	text-decoration: none;
+	color: purple;
+        font-family:"Segoe Print"; 
+
+    	font-size: 30px;    
+	font-weight: bold;
+	color: #A155B9;
+}
+
+
+.description {
+    	padding: 50px;
+    	
+	 
+    
+}
+
+
+
+
+
+.type {
+    position: relative;
+    
+}
+
+.type:hover .roman,
+.type :focus-within .roman {
+    display: block;
+}
+
+.romans{
+	cursor: pointer;
+ 
+	color: purple;
+    	font-weight: bold;
+    	font-size: 20px;
+    	font-family: "Segoe Print";
+}
+
+
+.roman {
+   	display: none;
+    	position: absolute;
+	background-color: #f5ede6;
+    	box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    	border-radius: 10px;
+    	padding: 10px;
+}
+
+.roman h3 a {
+    	text-decoration: none; 
+    	color: purple;
+    	font-weight: bold;
+    	font-size: 20px;
+    	font-family: Segoe Print;
+}
+
+
+
+
+.liste-container{
+    	display: flex;
+    	gap: 15px;
+	
+    	justify-content: center;
+}
+
+.liste-container a{
+    text-decoration: none;
+    color: white;
+}
+
+.card {
+	position: relative;
+
+    width: 220px;
+  	height: 300px;
+
+    border-radius: 15px;
+	overflow: hidden;
+     background: black;
+	
+	
+}
+
+.card img {
+      	width: 100%;
+      	height: 100%;
+      	opacity: 0.7;
+}
+
+
+.card h3 {
+       	position: absolute;
+       	bottom: 20px;
+
+       	left: 50%;
+	
+       	transform: translateX(-50%);
+	
+	text-align: center; 
+       	font-size: 18px;
+       	font-weight: bold;
+	
+}
+
+.card:hover {
+  	transform: scale(1.1);
+	transition: transform 0.3s ease-in-out;
+  
+}
+
+
+
+
+.contact {
+
+	margin: 100px auto;
+	margin-bottom:30px;
+    	background-color: #f9f9f9;
+    	padding:20px;
+    	
+	width: 50%;
+    	border-radius:5px;
+	box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+
+
+.contact h2 {
+    text-align: center;
+    font-size: 28px;
+}
+
+
+
+.contact p {
+    text-align: center;
+    font-size: 16px;
+    
+}
+
+
+.contact form {
+	display: flex;
+    	flex-direction: column;
+    	gap: 15px;
+}
+
+
+.contact label {
+    font-weight: bold;
+}
+
+
+
+.contact input, 
+.contact textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    
+}
+
+.contact button {
+	cursor: pointer;
+    	padding: 10px 20px;
+	border: none;
+    	border-radius: 5px;
+    	
+    	background-color: purple;
+    	color: white;
+    	font-size: 16px;
+   
+}
+
+.contact button:hover {
+    background-color: #8b00b3;
+}
+
+
+
+
+.event-list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 40px;
+    width: 70%;
+    margin: auto;
+}
+
+.event-card {
+    background-color: #f5ede6;
+    border-left: 10px solid #A155B9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.event-card h2 {
+    color: #A155B9;
+    font-family: "Segoe Print";
+    
+}
+
+.event-card .date {
+    font-weight: bold;
+    color: #6e6e6e;
+}
+
+.event-card p {
+    font-family: "Lucida Calligraphy";
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+.book {
+	background-color: #f5ede6;
+    	border-left: 10px solid #A155B9;
+    	display: flex;
+    	gap: 30px;
+    	margin: 40px;
+    	padding:30px;
+  
+    	border-radius: 20px;
+    	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.book img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.info {
+
+	font-size: 16px;
+}
+
+.info h2 {
+
+    	color: #A155B9;
+	margin-bottom:0px;
+    	
+    	font-family: "MV Boli";
+	font-size: 24px;
+    	font-weight: bold;
+
+
+}
+
+.book div.text {
+    	font-style: italic;
+    	color: #8c6f5e;
+	font-size: 18 px;
+}
+
+
+.info p{
+	font-size: 18px;
+
+}
+
+
+
+
+.auteurs {
+    margin: 130px auto 80px auto;
+    max-width:80%;
+    padding: 10px;
+    background-color: #f5ede6;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.auteurs h1 {
+    font-family: "Courier New";
+    font-size: 36px;
+    font-weight: bold;
+    color: purple;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.auteurs table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.auteurs thead {
+    background-color: #A155B9;
+    color: white;
+    text-align: center;
+}
+
+.auteurs th {
+    background-color: #e4d1f4;
+    color: #4b006e;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+    font-family: "Segoe Print";
+    font-size: 18px;
+}
+
+.auteurs td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+    font-family: "Segoe Print";
+    font-size: 18px;
+}
+
+.auteurs tbody tr:nth-child(even) {
+    background-color: #f9f1ea;
+}
+
+.auteurs img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+}
