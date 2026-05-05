@@ -1,136 +1,115 @@
 
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
 
-footer{
-	background-color: #f5ede6;
-	padding:10px;
+}
 
+footer {
+    background-color: #f5ede6;
+    padding: 10px;
+	text-align: center;
 }
 
 #logoimage {
-    	height:80px;
+    height: 80px;
 }
 
-nav {    
-    	position: fixed; 
-    	top: 0;
-    	z-index: 1000;
-    	width: 100%;
-    	display: flex;
-	
-	align-items: center;
-    	background-color: #f5ede6;
+
+nav {
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #f5ede6;
+    box-sizing: border-box;
 }
 
 .menu {
-    	display: flex;
-   	justify-content: space-between;
-	flex-grow: 1;
- 
-	margin-left:100px;
-	margin-right:100px;
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .menu a {
-    	text-decoration: none;
-
-    	color: purple;
-    	font-weight: bold;
-    	font-size: 20px;
-    	font-family: "Segoe Print";
+    text-decoration: none;
+    color: purple;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "Segoe Print", cursive;
 }
 
 
-
-
-
-
-
-
-
-.head{
-	text-align: center;
-	
+.head {
+    text-align: center;
 }
 
-
-.special-text{
-	padding-top: 100px;
-
-    	font-family: "Courier New";
-    	font-size: 36px;    
-	font-weight: bold;
-    	color: purple;
-    	
-
-}
-.title{
-	font-family: "Courier";
-    	font-size: 30px;    
-	font-weight: bold;
-	color: #A155B9;
-    	
-}
-.text{
-	font-family: "Segoe Print";
-	font-weight: bold;
-	font-size: 20px;	
-	
+.special-text {
+    padding-top: 100px;
+    font-family: "Courier New", monospace;
+    font-size: 36px;
+    font-weight: bold;
+    color: purple;
 }
 
+.title {
+    font-family: "Courier", monospace;
+    font-size: 30px;
+    font-weight: bold;
+    color: #A155B9;
+}
 
-
+.text {
+    font-family: "Segoe Print", cursive;
+    font-weight: bold;
+    font-size: 20px;
+}
 
 
 .video-container {
-	 margin-bottom: 20px;
-	display: flex;
-    	flex-direction: column;
-    	align-items: center;
-    	justify-content: center;
-    	width:100%;
-   	margin-top: 40px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 40px;
 }
 
 .video-container h2 {
-	color:purple;
-	font-family:"Segoe Print"; 
-    	font-size: 30px;
+    color: purple;
+    font-family: "Segoe Print", cursive;
+    font-size: 30px;
+    text-align: center;
+}
+
+#video {
+    width: 60%;
 }
 
 
-#video{
-        width: 60%;
-
-    
-}
-
-
-
-.text1 a{
-	text-decoration: none;
-	color: purple;
-        font-family:"Segoe Print"; 
-
-    	font-size: 30px;    
-	font-weight: bold;
-	color: #A155B9;
+.text1 a {
+    text-decoration: none;
+    font-family: "Segoe Print", cursive;
+    font-size: 30px;
+    font-weight: bold;
+    color: #A155B9;
 }
 
 
 .description {
-    	padding: 50px;
-    	
-	 
-    
+    padding: 50px;
 }
-
-
-
 
 
 .type {
     position: relative;
-    
 }
 
 .type:hover .roman,
@@ -138,157 +117,135 @@ nav {
     display: block;
 }
 
-.romans{
-	cursor: pointer;
- 
-	color: purple;
-    	font-weight: bold;
-    	font-size: 20px;
-    	font-family: "Segoe Print";
+.romans {
+    cursor: pointer;
+    color: purple;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "Segoe Print", cursive;
 }
 
-
 .roman {
-   	display: none;
-    	position: absolute;
-	background-color: #f5ede6;
-    	box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    	border-radius: 10px;
-    	padding: 10px;
+    display: none;
+    position: absolute;
+    background-color: #f5ede6;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 10px;
+    z-index: 100;
+    min-width: 180px;
 }
 
 .roman h3 a {
-    	text-decoration: none; 
-    	color: purple;
-    	font-weight: bold;
-    	font-size: 20px;
-    	font-family: Segoe Print;
+    text-decoration: none;
+    color: purple;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "Segoe Print", cursive;
 }
 
 
-
-
-.liste-container{
-    	display: flex;
-    	gap: 15px;
-	
-    	justify-content: center;
+.liste-container {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 10px;
 }
 
-.liste-container a{
+.liste-container a {
     text-decoration: none;
     color: white;
 }
 
 .card {
-	position: relative;
-
+    position: relative;
     width: 220px;
-  	height: 300px;
-
+    height: 300px;
     border-radius: 15px;
-	overflow: hidden;
-     background: black;
-	
-	
+    overflow: hidden;
+    background: black;
 }
 
 .card img {
-      	width: 100%;
-      	height: 100%;
-      	opacity: 0.7;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    display: block;
 }
 
-
 .card h3 {
-       	position: absolute;
-       	bottom: 20px;
-
-       	left: 50%;
-	
-       	transform: translateX(-50%);
-	
-	text-align: center; 
-       	font-size: 18px;
-       	font-weight: bold;
-	
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    width: 90%;
 }
 
 .card:hover {
-  	transform: scale(1.1);
-	transition: transform 0.3s ease-in-out;
-  
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
 }
-
-
 
 
 .contact {
-
-	margin: 100px auto;
-	margin-bottom:30px;
-    	background-color: #f9f9f9;
-    	padding:20px;
-    	
-	width: 50%;
-    	border-radius:5px;
-	box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    margin: 100px auto;
+    margin-bottom: 30px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    width: 50%;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
 }
-
-
 
 .contact h2 {
     text-align: center;
     font-size: 28px;
 }
 
-
-
 .contact p {
     text-align: center;
     font-size: 16px;
-    
 }
-
 
 .contact form {
-	display: flex;
-    	flex-direction: column;
-    	gap: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
-
 
 .contact label {
     font-weight: bold;
 }
 
-
-
-.contact input, 
+.contact input,
 .contact textarea {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 16px;
-    
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .contact button {
-	cursor: pointer;
-    	padding: 10px 20px;
-	border: none;
-    	border-radius: 5px;
-    	
-    	background-color: purple;
-    	color: white;
-    	font-size: 16px;
-   
+    cursor: pointer;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: purple;
+    color: white;
+    font-size: 16px;
 }
 
 .contact button:hover {
     background-color: #8b00b3;
 }
-
 
 
 
@@ -299,6 +256,7 @@ nav {
     padding: 40px;
     width: 70%;
     margin: auto;
+    box-sizing: border-box;
 }
 
 .event-card {
@@ -306,13 +264,12 @@ nav {
     border-left: 10px solid #A155B9;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .event-card h2 {
     color: #A155B9;
-    font-family: "Segoe Print";
-    
+    font-family: "Segoe Print", cursive;
 }
 
 .event-card .date {
@@ -321,77 +278,69 @@ nav {
 }
 
 .event-card p {
-    font-family: "Lucida Calligraphy";
+    font-family: "Lucida Calligraphy", cursive;
     font-size: 18px;
 }
 
 
 
-
-
-
-
 .book {
-	background-color: #f5ede6;
-    	border-left: 10px solid #A155B9;
-    	display: flex;
-    	gap: 30px;
-    	margin: 40px;
-    	padding:30px;
-  
-    	border-radius: 20px;
-    	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    background-color: #f5ede6;
+    border-left: 10px solid #A155B9;
+    display: flex;
+    gap: 30px;
+    margin: 40px;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    flex-wrap: wrap;
 }
 
 .book img {
     width: 200px;
     height: auto;
     border-radius: 10px;
+    flex-shrink: 0;
 }
 
 .info {
-
-	font-size: 16px;
+    font-size: 16px;
+    flex: 1;
+    min-width: 200px;
 }
 
 .info h2 {
-
-    	color: #A155B9;
-	margin-bottom:0px;
-    	
-    	font-family: "MV Boli";
-	font-size: 24px;
-    	font-weight: bold;
-
-
+    color: #A155B9;
+    margin-bottom: 0px;
+    font-family: "MV Boli", cursive;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .book div.text {
-    	font-style: italic;
-    	color: #8c6f5e;
-	font-size: 18 px;
+    font-style: italic;
+    color: #8c6f5e;
+    font-size: 18px;
 }
 
-
-.info p{
-	font-size: 18px;
-
+.info p {
+    font-size: 18px;
 }
-
 
 
 
 .auteurs {
     margin: 130px auto 80px auto;
-    max-width:80%;
+    max-width: 80%;
     padding: 10px;
     background-color: #f5ede6;
     border-radius: 15px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    overflow-x: auto;
 }
 
 .auteurs h1 {
-    font-family: "Courier New";
+    font-family: "Courier New", monospace;
     font-size: 36px;
     font-weight: bold;
     color: purple;
@@ -405,6 +354,7 @@ nav {
     background-color: white;
     border-radius: 10px;
     overflow: hidden;
+    min-width: 400px;
 }
 
 .auteurs thead {
@@ -419,7 +369,7 @@ nav {
     padding: 10px;
     text-align: center;
     border: 1px solid #ccc;
-    font-family: "Segoe Print";
+    font-family: "Segoe Print", cursive;
     font-size: 18px;
 }
 
@@ -427,7 +377,7 @@ nav {
     padding: 10px;
     text-align: center;
     border: 1px solid #ccc;
-    font-family: "Segoe Print";
+    font-family: "Segoe Print", cursive;
     font-size: 18px;
 }
 
@@ -441,4 +391,197 @@ nav {
     object-fit: cover;
     border-radius: 50%;
     border: 1px solid #ccc;
+}
+
+
+@media (max-width: 900px) {
+
+    .menu {
+        margin-left: 40px;
+        margin-right: 40px;
+        gap: 20px;
+    }
+
+    .menu a {
+        font-size: 17px;
+    }
+
+    #video {
+        width: 80%;
+    }
+
+    .contact {
+        width: 70%;
+    }
+
+    .event-list {
+        width: 85%;
+        padding: 20px;
+    }
+
+    .auteurs {
+        max-width: 95%;
+    }
+
+    .auteurs th,
+    .auteurs td {
+        font-size: 15px;
+        padding: 8px;
+    }
+
+    .auteurs img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .book {
+        margin: 20px;
+        padding: 20px;
+    }
+}
+
+
+
+@media (max-width: 600px) {
+
+    /* Nav */
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px 14px;
+    }
+
+    .menu {
+        margin-left: 0;
+        margin-right: 0;
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+        padding: 8px 0;
+    }
+
+    .menu a {
+        font-size: 15px;
+    }
+
+   
+    #logoimage {
+        height: 55px;
+    }
+
+    
+    .special-text {
+        padding-top: 160px;
+        font-size: 24px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .title {
+        font-size: 22px;
+    }
+
+    .text {
+        font-size: 16px;
+    }
+
+    .video-container h2 {
+        font-size: 22px;
+        padding: 0 10px;
+    }
+
+    #video {
+        width: 95%;
+    }
+
+
+    .text1 a {
+        font-size: 20px;
+    }
+
+    .description {
+        padding: 20px 14px;
+    }
+
+    .romans {
+        font-size: 16px;
+    }
+
+    .roman h3 a {
+        font-size: 16px;
+    }
+
+    .liste-container {
+        gap: 12px;
+    }
+
+    .card {
+        width: 160px;
+        height: 230px;
+    }
+
+    .card h3 {
+        font-size: 15px;
+    }
+
+    .contact {
+        width: 90%;
+        margin: 80px auto 30px auto;
+        padding: 16px;
+    }
+
+    .contact h2 {
+        font-size: 22px;
+    }
+
+    .event-list {
+        width: 95%;
+        padding: 10px;
+        gap: 20px;
+    }
+
+    .event-card p {
+        font-size: 15px;
+    }
+
+    .book {
+        flex-direction: column;
+        align-items: center;
+        margin: 20px 10px;
+        padding: 16px;
+        gap: 16px;
+    }
+
+    .book img {
+        width: 140px;
+    }
+
+    .info h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .info p {
+        font-size: 15px;
+    }
+
+    .auteurs {
+        margin: 100px auto 40px auto;
+        max-width: 98%;
+    }
+
+    .auteurs h1 {
+        font-size: 24px;
+    }
+
+    .auteurs th,
+    .auteurs td {
+        font-size: 13px;
+        padding: 6px 4px;
+    }
+
+    .auteurs img {
+        width: 70px;
+        height: 70px;
+    }
 }
