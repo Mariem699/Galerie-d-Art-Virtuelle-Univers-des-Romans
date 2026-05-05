@@ -620,3 +620,8 @@ nav {
         height: 70px;
     }
 }
+@media (min-width: 601px) {
+    .hamburger-btn {
+        display: none;
+    }
+}
