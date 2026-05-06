@@ -3,24 +3,36 @@ body {
     flex-direction: column;
     min-height: 100vh;
     margin: 0;
+}
 
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #f5ede6;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    box-sizing: border-box;
+}
+
+main {
+    flex: 1;
+    padding-top: 90px; /* hauteur de la nav fixe */
 }
 
 footer {
     background-color: #f5ede6;
     padding: 10px;
-	text-align: center;
+    text-align: center;
+    margin-top: auto;
 }
 
 #logoimage {
     height: 80px;
 }
 
-
 nav {
-    position: fixed;
-    top: 0;
-    z-index: 1000;
     width: 100%;
     display: flex;
     align-items: center;
@@ -50,7 +62,7 @@ nav {
 }
 
 .special-text {
-    padding-top: 100px;
+    padding-top: 30px;
     font-family: "Courier New", monospace;
     font-size: 36px;
     font-weight: bold;
@@ -192,7 +204,7 @@ nav {
 
 
 .contact {
-    margin: 100px auto;
+    margin: 30px auto;
     margin-bottom: 30px;
     background-color: #f9f9f9;
     padding: 20px;
@@ -329,7 +341,7 @@ nav {
 
 
 .auteurs {
-    margin: 130px auto 80px auto;
+    margin: 30px auto 80px auto;
     max-width: 80%;
     padding: 10px;
     background-color: #f5ede6;
@@ -504,9 +516,9 @@ nav {
         height: 45px;
     }
 
-    
+   
     .special-text {
-        padding-top: 160px;
+        padding-top: 20px;
         font-size: 24px;
         padding-left: 10px;
         padding-right: 10px;
@@ -601,7 +613,7 @@ nav {
     }
 
     .auteurs {
-        margin: 100px auto 40px auto;
+        margin: 20px auto 40px auto;
         max-width: 98%;
     }
 
